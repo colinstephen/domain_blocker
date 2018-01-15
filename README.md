@@ -18,7 +18,7 @@ Use optional argument `-h` to show command line help.
 
 ## What It Does
 
-Each new domain in the `FROM_FILE` and its `www`-variant are appended to the `HOSTS_FILE` as a redirect to IP `127.0.0.1`.
+Each new domain in the `FROM_FILE` and its `www`-variant is appended to the `HOSTS_FILE` as a redirect to IP `127.0.0.1`.
 
 ## Motivation
 
