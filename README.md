@@ -27,7 +27,7 @@ To get work done, maintain a list of any domains that you never want to waste ti
 ```
 # crontab
 # update every 10 mins
-*/10 * * * * /path/to/updatehosts.py -from_file /path/to/domains.txt
+*/10 * * * * /path/to/domain_blocker.py -from_file /path/to/domains.txt
 ```
 
 ### Hint
