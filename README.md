@@ -5,7 +5,7 @@ A simple Python command line script that appends domains to the system hosts fil
 ## Usage
 
 ```
-root$ updatehosts.py [-h] -from_file FROM_FILE [-hosts_file HOSTS_FILE]
+root$ domain_blocker.py [-h] -from_file FROM_FILE [-hosts_file HOSTS_FILE]
 ```
 
 Use optional argument `-h` to show command line help.
