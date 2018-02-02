@@ -87,7 +87,7 @@ def append_blocks(from_file, hosts_file=HOSTS):
 	urls_to_add = add_www(new_domains)
 	#print('urls_to_add:', urls_to_add)
 	
-	lines_to_add = ['127.0.0.1 {}'.format(url) for url in urls_to_add]
+	lines_to_add = ['127.0.0.1 {}\n'.format(url) for url in urls_to_add]
 	#print('lines_to_add:', lines_to_add)
 
 	append_lines(lines_to_add, hosts_file)
